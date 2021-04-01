@@ -1,0 +1,8 @@
+// ==UserScript==
+// @name         Github "RMS open letter" pr's-maker marker script
+// @namespace    http://github.com
+// @description  Add a mark to the "RMS open letter" pr's-maker's repositories 
+// @include      http://github.com/*
+// @include      https://github.com/*
+// @author       Alexander Pozharskii
+// ==/UserScript==
