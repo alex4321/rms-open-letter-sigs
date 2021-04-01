@@ -6,6 +6,10 @@
         }
     }
 
+    function onlyUnique(value, index, self) {
+        return self.indexOf(value) === index;
+    }
+
     function addSignerIndicator(username, requests) {
         removeIndicatorIfExist();
 
@@ -21,7 +25,7 @@
         signerButton.innerText = "Possible signer of RMS open letter";
         signerButtonContainer.appendChild(signerButton);
 
-        let hintText = requests.map( (request) => { return request.title; } ).join("; ");
+        let hintText = requests.map( (request) => { return request.title; } ).filter(onlyUnique).join("; ");
         signerButton.setAttribute("title", hintText);
 
         actions.appendChild(signerButtonContainer);
