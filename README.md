@@ -1,5 +1,5 @@
 A bit opposite thing for https://github.com/aaronbassett/rms-letter-sigs
-It marks repositories of pull requesters (there is no easier way to get signers) or https://rms-open-letter.github.io/
+It marks repositories of pull requesters (there is no easier way to get signers) of https://rms-open-letter.github.io/
 
 ![Added indicator](./screenshot.png)
 
