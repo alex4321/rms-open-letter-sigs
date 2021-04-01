@@ -6,3 +6,5 @@ It marks repositories of pull requesters (there is no easier way to get signers)
 # Installation
 
 It requires GreaseMonkey or a similar extension. You can install the script here: https://github.com/alex4321/rms-open-letter-sigs/raw/main/rms-open-letter-sigs.user.js
+
+UPD. Tested with Firefox 86.0 & GreaseMonkey 4.11
